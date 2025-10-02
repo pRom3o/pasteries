@@ -31,8 +31,8 @@ onMounted(() => {
             <h2 class="heading text-4xl md:text-6xl lg:text-7xl fade-in delay-1">
                 Delicious Pasteries
             </h2>
-            <p class="fade-in delay-1 body-text lg:text-xl mt-2 text-secondary">
-                <i>Freshly baked, made with love...</i>
+            <p class="fade-in delay-1 body-text lg:text-xl mt-2 text-secondary px-3">
+                <i>Turning simple beginings into timeless flavors, one pastry at a time</i>
             </p>
             <button
                 class="px-8 py-2 rounded-2xl fade-in delay-3 font-body center gap-4 font-semibold bg-[#c3ae92] text-black opacity-40 mt-5 hover:bg-[#f0e5d7] hover"

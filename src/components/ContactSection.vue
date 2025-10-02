@@ -20,9 +20,9 @@ onMounted(() => {
 </script>
 
 <template>
-    <section id="Contact" class="fade-in main-bg min-h-[400px] w-full col-center px-5 py-8">
+    <section id="Contact" class="fade-in secondary-bg min-h-[400px] w-full col-center px-5 py-8">
         <form
-            class="flex flex-col items-center space-y-5 h-full lg:w-[50%] md:w-full w-full bg-[#f4e9d9] p-6 md:px-20 text-secondary rounded-2xl border border-gray-200 shadow"
+            class="flex flex-col items-center space-y-5 h-full lg:w-[50%] md:w-full w-full bg-[#f2ede6] p-6 md:px-20 text-secondary rounded-2xl shadow"
         >
             <h1 class="text-5xl">Contact Us</h1>
             <div class="col-center w-full h-[88%] space-y-5">

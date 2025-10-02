@@ -14,7 +14,7 @@
 } */
 
 .primary-bg {
-    @apply bg-[#4CAF50];
+    @apply bg-[#e8f1e8];
 }
 
 .secondary-bg {
@@ -23,6 +23,10 @@
 
 .prod-bg {
     @apply bg-[#f4e7d0];
+}
+
+.item-bg {
+    @apply bg-[#eae5da];
 }
 
 .center {
