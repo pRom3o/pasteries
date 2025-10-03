@@ -26,9 +26,11 @@ onMounted(() => {
         id="About"
         class="fade-in primary-bg min-h-[350px] w-full flex flex-col items-center gap-6 p-4 text-black"
     >
-        <h1 class="items-start text-5xl">About Celine's treats</h1>
+        <h1 class="items-start text-5xl py-4 fade-in">About Celine's treats</h1>
         <div class="flex items-center justify-evenly w-[80%] p-4 h-full">
-            <div class="h-full flex justify-center w-1/2 slide-in-left">
+            <div
+                class="h-full flex justify-center w-1/2 slide-in-left transition-transform duration-500 ease-in-out transform hover:scale-105"
+            >
                 <div class="h-40 w-40 border"></div>
             </div>
             <div class="w-1/2 font-heading text-xl slide-in-right">

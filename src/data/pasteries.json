@@ -1,0 +1,80 @@
+{
+    "Doughnuts": [
+        {
+            "id": 1,
+            "name": "Chocolate doughnut",
+            "price": "₦1200",
+            "img": "./assets/Images/chocolate-doughnuts.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Milky doughnut",
+            "price": "₦1200",
+            "img": "./assets/Images/milky-doughnuts.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Powdered sugar doughnut",
+            "price": "₦800",
+            "img": "./assets/Images/milky-doughnuts.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Jam doughnut",
+            "price": "₦1200",
+            "img": "./assets/Images/milky-doughnuts.jpg"
+        }
+    ],
+    "Cakes": [
+        {
+            "id": 1,
+            "name": "Chocolate cake",
+            "price": "₦1200",
+            "img": "./assets/Images/cake-1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Cheese cake",
+            "price": "₦1200",
+            "img": "./assets/Images/item-6.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Vanilla cake",
+            "price": "₦800",
+            "img": "./assets/Images/milky-doughnuts.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Jam doughnut",
+            "price": "₦1200",
+            "img": "./assets/Images/milky-doughnuts.jpg"
+        }
+    ],
+    "Others": [
+        {
+            "id": 1,
+            "name": "Meat pie",
+            "price": "₦1200",
+            "img": "./assets/Images/chocolate-doughnuts.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Puffs ",
+            "price": "₦1200",
+            "img": "./assets/Images/puffs-1.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Puffs",
+            "price": "₦800",
+            "img": "./assets/Images/puffs-2.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Other-1",
+            "price": "₦1200",
+            "img": "./assets/Images/milky-doughnuts.jpg"
+        }
+    ]
+}

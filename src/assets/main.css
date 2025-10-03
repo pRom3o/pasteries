@@ -14,7 +14,7 @@
 } */
 
 .primary-bg {
-    @apply bg-[#e8f1e8];
+    @apply bg-[#f0f9f0];
 }
 
 .secondary-bg {
