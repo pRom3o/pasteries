@@ -27,13 +27,15 @@ onMounted(() => {
         class="fade-in primary-bg min-h-[350px] w-full flex flex-col items-center gap-6 p-4 text-black"
     >
         <h1 class="items-start text-5xl py-4 fade-in">About Celine's treats</h1>
-        <div class="flex items-center justify-evenly w-[80%] p-4 h-full">
+        <div
+            class="flex md:flex-row flex-col items-center justify-evenly space-y-8 md:w-[80%] w-full p-4 h-full"
+        >
             <div
                 class="h-full flex justify-center w-1/2 slide-in-left transition-transform duration-500 ease-in-out transform hover:scale-105"
             >
-                <div class="h-40 w-40 border"></div>
+                <div class="h-40 w-40 border rounded-full"></div>
             </div>
-            <div class="w-1/2 font-heading text-xl slide-in-right">
+            <div class="md:w-1/2 w-full font-heading text-xl slide-in-right">
                 <p>
                     “I never actually planned on starting a business. Most times when I get an idea,
                     I focus too much on the big picture — the finished product I imagine. That often
@@ -53,7 +55,7 @@ onMounted(() => {
 <style scoped>
 .slide-in-left {
     opacity: 0;
-    transform: translateX(-100px); /* negative for left */
+    transform: translateY(-50px); /* negative for left */
     transition:
         opacity 0.8s ease-out,
         transform 0.8s ease-out;
@@ -66,7 +68,7 @@ onMounted(() => {
 
 .slide-in-right {
     opacity: 0;
-    transform: translateX(100px); /* positive for right */
+    transform: translateY(50px); /* positive for right */
     transition:
         opacity 0.8s ease-out,
         transform 0.8s ease-out;

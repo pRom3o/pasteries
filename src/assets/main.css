@@ -16,6 +16,9 @@
 .primary-bg {
     @apply bg-[#f0f9f0];
 }
+.text-hero {
+    @apply text-[#f0f9f0];
+}
 
 .secondary-bg {
     @apply bg-[#FDFBF7];
@@ -26,7 +29,7 @@
 }
 
 .item-bg {
-    @apply bg-[#eae5da];
+    @apply bg-[#e1e3df];
 }
 
 .center {

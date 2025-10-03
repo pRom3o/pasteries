@@ -22,22 +22,22 @@ onMounted(() => {
 <template>
     <section
         id="Home"
-        class="min-h-screen w-full center relative bg-center bg-cover"
+        class="min-h-screen w-full center relative bg-center bg-cover text-hero"
         style="background-image: url('src/assets/Images/pasteries-hero.jpg')"
     >
-        <div class="absolute inset-0 bg-black opacity-40"></div>
-        <div class="h-full w-full text-center col-center z-10 leading-10 text-primary">
+        <div class="absolute inset-0 bg-black/80 opacity-40 w-full"></div>
+        <div class="h-full w-full text-center col-center z-10 leading-10">
             <h1 class="heading text-6xl lg:text-9xl fade-in">Celine's Treats</h1>
             <h2 class="heading text-4xl md:text-6xl lg:text-7xl fade-in delay-1">
                 Delicious Pasteries
             </h2>
-            <p class="fade-in delay-1 body-text lg:text-xl mt-2 text-secondary px-3">
+            <p class="fade-in delay-1 body-text lg:text-xl mt-2 px-3">
                 <i>Turning simple beginings into timeless flavors, one pastry at a time</i>
             </p>
             <button
-                class="px-8 py-2 rounded-2xl fade-in delay-3 font-body center gap-4 font-semibold bg-[#c3ae92] text-black opacity-40 mt-5 hover:bg-[#f0e5d7] hover"
+                class="px-8 py-2 rounded-2xl fade-in delay-3 font-body center gap-4 font-semibold bg-[#beb19f] opacity-40 mt-5 text-black/60 hover:bg-[#f0d9bb] hover"
             >
-                Order Now
+                <a href="#Products">Order Now</a>
                 <span
                     ><svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -20,9 +20,9 @@ onMounted(() => {
 </script>
 
 <template>
-    <section id="Contact" class="fade-in secondary-bg min-h-[400px] w-full col-center px-5 py-8">
+    <section id="Contact" class="fade-in min-h-[400px] w-full col-center px-5 py-8 text-zinc-400">
         <form
-            class="flex flex-col items-center space-y-5 h-full lg:w-[50%] md:w-full w-full bg-[#f2ede6] p-6 md:px-20 text-secondary rounded-2xl shadow"
+            class="flex flex-col items-center space-y-5 h-full lg:w-[50%] md:w-full w-full primary-bg p-6 md:px-20 rounded-2xl shadow-sm"
         >
             <h1 class="text-5xl">Contact Us</h1>
             <div class="col-center w-full h-[88%] space-y-5">
@@ -46,7 +46,7 @@ onMounted(() => {
             </div>
             <div class="w-full flex items-center justify-end py-3 h-[12%]">
                 <button
-                    class="px-8 py-2 rounded-2xl font-body center gap-4 font-semibold bg-[#d9c3a6] text-[#fef3e4] hover:bg-[#c3ae92]"
+                    class="px-8 py-2 rounded-2xl font-body center gap-4 font-semibold bg-[#9a9a9a] text-[#fef3e4] hover:bg-[#c3ae92]"
                 >
                     Send
                 </button>
@@ -57,7 +57,7 @@ onMounted(() => {
                     <a
                         href="https://wa.me/+2348174700749"
                         aria-label="Chat with Celine's Treats on Whatsapp"
-                        class="p-3 rounded-full bg-[#e8d9c5] hover hover:bg-[#c3ae92]"
+                        class="p-3 rounded-full bg-[#eee2d2] hover hover:bg-[#c3ae92]"
                         ><svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -76,7 +76,7 @@ onMounted(() => {
                     <a
                         href="https://www.tiktok.com/@celinemercy229?_t=ZS-90AgHEckxmK&_r=1"
                         aria-label="Chat with Celine's Treats on Tiktok"
-                        class="p-3 rounded-full bg-[#e8d9c5] hover hover:bg-[#c3ae92]"
+                        class="p-3 rounded-full bg-[#eee2d2] hover hover:bg-[#c3ae92]"
                         ><svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -103,7 +103,7 @@ onMounted(() => {
 
 input,
 textarea {
-    border: 2px solid #bca88d;
+    border: 2px solid #9a9a9a;
     outline: none;
     padding: 5px;
     font-weight: 400;
