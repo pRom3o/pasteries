@@ -20,9 +20,9 @@ onMounted(() => {
 </script>
 
 <template>
-    <section id="Contact" class="fade-in min-h-[400px] w-full col-center px-5 py-8 text-zinc-400">
+    <section id="Contact" class="fade-in min-h-[400px] w-full col-center px-5 py-8 bg-neutral-200">
         <form
-            class="flex flex-col items-center space-y-5 h-full lg:w-[50%] md:w-full w-full primary-bg p-6 md:px-20 rounded-2xl shadow-sm"
+            class="flex flex-col items-center space-y-5 h-full lg:w-[50%] md:w-full w-full p-6 md:px-20 rounded-2xl shadow-sm bg-neutral-300"
         >
             <h1 class="text-5xl">Contact Us</h1>
             <div class="col-center w-full h-[88%] space-y-5">
@@ -40,29 +40,29 @@ onMounted(() => {
                     <textarea
                         name="userMessage"
                         id="userMessage"
-                        class="resize-none h-30 text-black/70"
+                        class="resize-none h-30"
                     ></textarea>
                 </div>
             </div>
             <div class="w-full flex items-center justify-end py-3 h-[12%]">
                 <button
-                    class="px-8 py-2 rounded-2xl font-body center gap-4 font-semibold bg-[#9a9a9a] text-[#fef3e4] hover:bg-[#c3ae92]"
+                    class="px-8 py-2 rounded-2xl font-body center gap-4 font-semibold hover shadow bg-[#333333] text-[#D3D3D3] hover:bg-[#D3D3D3] hover:text-[#333333]"
                 >
                     Send
                 </button>
             </div>
-            <p class="">Or contact us through one of our socials:</p>
+            <p>Or contact us through one of our socials:</p>
             <ul class="flex items-center justify-center gap-5 w-[30%]">
                 <li class="col-center">
                     <a
                         href="https://wa.me/+2348174700749"
                         aria-label="Chat with Celine's Treats on Whatsapp"
-                        class="p-3 rounded-full bg-[#eee2d2] hover hover:bg-[#c3ae92]"
+                        class="p-3 rounded-full bg-[#50C878] hover hover:bg-[#046307]"
                         ><svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
                             height="16"
-                            fill="#4CAF50"
+                            fill=""
                             class="bi bi-whatsapp"
                             viewBox="0 0 16 16"
                         >
@@ -76,7 +76,7 @@ onMounted(() => {
                     <a
                         href="https://www.tiktok.com/@celinemercy229?_t=ZS-90AgHEckxmK&_r=1"
                         aria-label="Chat with Celine's Treats on Tiktok"
-                        class="p-3 rounded-full bg-[#eee2d2] hover hover:bg-[#c3ae92]"
+                        class="p-3 rounded-full bg-[#50C878] hover hover:bg-[#046307]"
                         ><svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -97,6 +97,9 @@ onMounted(() => {
 </template>
 
 <style scoped>
+label {
+    color: #537453;
+}
 .hover {
     transition: all 0.3s ease-in-out;
 }

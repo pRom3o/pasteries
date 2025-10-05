@@ -7,29 +7,15 @@
 }
 
 .main-bg {
-    @apply bg-[#fff4e6];
-}
-/* .btn-bg {
-    @apply bg-[#c3ae92];
-} */
-
-.primary-bg {
-    @apply bg-[#f0f9f0];
-}
-.text-hero {
-    @apply text-[#f0f9f0];
+    @apply bg-neutral-300;
 }
 
 .secondary-bg {
-    @apply bg-[#FDFBF7];
+    @apply bg-[#ebeced];
 }
 
-.prod-bg {
-    @apply bg-[#f4e7d0];
-}
-
-.item-bg {
-    @apply bg-[#e1e3df];
+.text-primary {
+    @apply text-[#1A1A1A];
 }
 
 .center {
@@ -65,17 +51,39 @@
     transition-delay: 0.6s;
 }
 
-.text-primary {
-    @apply text-[#dcc5b2];
-}
-
-.text-prod {
-    @apply text-[#5c5149];
-}
-.text-secondary {
-    @apply text-[#bca88d] font-bold;
-}
-
 button {
     @apply cursor-pointer;
 }
+
+/* Primary (Emerald) → #50C878
+ • Neutral White → #FFFFFF
+ • Neutral Black → #000000
+
+⸻
+
+🟢 Emerald Variants
+ • Light Emerald (hover backgrounds, accents) → #A5E8C0
+ • Dark Emerald (headers, emphasis) → #046307
+ • Muted Emerald (subtle backgrounds) → #2E8B57
+
+⸻
+
+⚪ Neutral Variants
+ • Off-White (background alternative) → #F8F9FA
+ • Light Gray (borders, secondary text) → #D3D3D3
+ • Medium Gray (icons, placeholders) → #808080
+
+⸻
+
+⚫ Black Variants
+ • Dark Gray (text instead of pure black) → #1A1A1A
+ • Charcoal (secondary backgrounds) → #333333
+
+⸻
+
+✅ Example Usage
+ • Background: White (#FFFFFF) or Off-White (#F8F9FA)
+ • Text: Dark Gray (#1A1A1A) for main body, Black (#000000) for headers
+ • Primary Button: Emerald (#50C878) with Dark Emerald hover (#046307)
+ • Secondary Button: White background with Emerald border/text
+ • Accents / Icons: Light Emerald (#A5E8C0) */

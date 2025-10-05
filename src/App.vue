@@ -7,7 +7,7 @@ import NavBar from './components/NavBar.vue'
 </script>
 
 <template>
-    <main class="bg-zinc-100 min-h-screen font-kanit">
+    <main class="main-bg min-h-screen font-kanit">
         <NavBar /><HeroSection /><ProductsSection /><AboutSection /><ContactSection />
     </main>
     <div class="fixed bottom-2 right-2 bg-black text-white text-xs px-2 py-1 rounded z-[9999]">
