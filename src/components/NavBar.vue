@@ -1,23 +1,23 @@
 <script setup>
-import { ref, onMounted } from 'vue'
-const activeSection = ref('Home')
+// import { ref, onMounted } from 'vue'
+// const activeSection = ref('Home')
 
-onMounted(() => {
-    const sections = document.querySelectorAll('section') // each section should have id="Home", id="Products", etc.
+// onMounted(() => {
+//     const sections = document.querySelectorAll('section') // each section should have id="Home", id="Products", etc.
 
-    const observer = new IntersectionObserver(
-        (entries) => {
-            entries.forEach((entry) => {
-                if (entry.isIntersecting) {
-                    activeSection.value = entry.target.id
-                }
-            })
-        },
-        { threshold: 0.6 }, // 60% of section visible
-    )
+//     const observer = new IntersectionObserver(
+//         (entries) => {
+//             entries.forEach((entry) => {
+//                 if (entry.isIntersecting) {
+//                     activeSection.value = entry.target.id
+//                 }
+//             })
+//         },
+//         { threshold: 0.6 }, // 60% of section visible
+//     )
 
-    sections.forEach((section) => observer.observe(section))
-})
+//     sections.forEach((section) => observer.observe(section))
+// })
 </script>
 
 <template>

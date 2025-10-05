@@ -46,7 +46,7 @@ onMounted(() => {
             </div>
             <div class="w-full flex items-center justify-end py-3 h-[12%]">
                 <button
-                    class="px-8 py-2 rounded-2xl font-body center gap-4 font-semibold hover shadow bg-[#333333] text-[#D3D3D3] hover:bg-[#D3D3D3] hover:text-[#333333]"
+                    class="px-8 py-2 rounded-2xl font-body center gap-4 font-semibold hover bg-[#333333] text-[#D3D3D3] hover:bg-[#D3D3D3] hover:text-[#333333] hover:border hover:border-[#333333] border border-[#D3D3D3] shadow-md"
                 >
                     Send
                 </button>
@@ -57,7 +57,7 @@ onMounted(() => {
                     <a
                         href="https://wa.me/+2348174700749"
                         aria-label="Chat with Celine's Treats on Whatsapp"
-                        class="p-3 rounded-full bg-[#50C878] hover hover:bg-[#046307]"
+                        class="p-3 rounded-full bg-[#8EC09E] hover hover:bg-[#046307]"
                         ><svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -76,7 +76,7 @@ onMounted(() => {
                     <a
                         href="https://www.tiktok.com/@celinemercy229?_t=ZS-90AgHEckxmK&_r=1"
                         aria-label="Chat with Celine's Treats on Tiktok"
-                        class="p-3 rounded-full bg-[#50C878] hover hover:bg-[#046307]"
+                        class="p-3 rounded-full bg-[#8EC09E] hover hover:bg-[#046307]"
                         ><svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -98,18 +98,26 @@ onMounted(() => {
 
 <style scoped>
 label {
-    color: #537453;
+    color: #333333;
+    font-weight: 500;
+    line-height: 22 px;
 }
+
 .hover {
     transition: all 0.3s ease-in-out;
 }
 
 input,
 textarea {
-    border: 2px solid #9a9a9a;
+    border: 2px solid #032e05;
     outline: none;
     padding: 5px;
     font-weight: 400;
     border-radius: 10px;
+}
+
+input:focus,
+textarea:focus {
+    caret-color: #046307;
 }
 </style>

@@ -22,10 +22,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <section
-        id="About"
-        class="fade-in min-h-[350px] w-full flex flex-col items-center gap-6 p-4 py-24"
-    >
+    <section id="About" class="fade-in min-h-[350px] w-full flex flex-col items-center gap-6 p-4">
         <h1 class="items-start text-5xl lg:text-6xl py-4 fade-in">About Celine's treats</h1>
         <div
             class="flex md:flex-row flex-col items-center justify-evenly space-y-8 w-full lg:w-[80%] p-4 h-full"
@@ -33,7 +30,10 @@ onMounted(() => {
             <div
                 class="h-full flex justify-center md:w-[40%] lg:w-1/2 transition-transform duration-500 ease-in-out transform hover:scale-105"
             >
-                <div class="h-60 w-60 border rounded-full bg-black"></div>
+                <div
+                    class="h-60 w-60 border rounded-full bg-cover bg-center"
+                    style="background-image: url('src/assets/Images/about-2.jpg')"
+                ></div>
             </div>
             <div class="md:w-[60%] w-full lg:w-1/2 font-heading text-xl slide-in-right">
                 <p class="md:text-[12px] lg:text-lg">

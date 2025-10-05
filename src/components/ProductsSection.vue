@@ -31,7 +31,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <section id="Products" class="fade-in min-h-[200px] col-center gap-5 p-6 secondary-bg pt-26">
+    <section id="Products" class="fade-in min-h-[200px] col-center gap-5 p-6 secondary-bg">
         <h1 class="md:text-6xl font-medium text-3xl">Delights we offer</h1>
         <div class="flex gap-4">
             <button
@@ -50,10 +50,10 @@ onMounted(() => {
         </div>
 
         <div class="min-h-[200px] col-center rounded-2xl w-full secondary-bg">
-            <div class="col-center w-full sm:w-[70%] md:w-[95%] xl:w-[70%] p-6 h-full">
-                <h2 class="text-6xl mb-5 font-medium">{{ selectedCategory }}</h2>
+            <div class="col-center w-full md:w-[95%] xl:w-[80%] 2xl:w-[70%] p-6 h-full">
+                <!-- <h2 class="text-6xl mb-5 font-medium">{{ selectedCategory }}</h2> -->
                 <div
-                    class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:w-full gap-5 space-y-5"
+                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:w-full gap-5 space-y-5"
                 >
                     <div
                         class="fade-in flex flex-col items-center justify-between h-[300px] w-full rounded-2xl shadow main-bg"
