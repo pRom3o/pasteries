@@ -51,12 +51,11 @@ onMounted(() => {
 
         <div class="min-h-[200px] col-center rounded-2xl w-full secondary-bg">
             <div class="col-center w-full md:w-[95%] xl:w-[80%] 2xl:w-[70%] p-6 h-full">
-                <!-- <h2 class="text-6xl mb-5 font-medium">{{ selectedCategory }}</h2> -->
                 <div
                     class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:w-full gap-5 space-y-5"
                 >
                     <div
-                        class="fade-in flex flex-col items-center justify-between h-[300px] w-full rounded-2xl shadow main-bg"
+                        class="fade-in flex flex-col items-center justify-between h-[300px] w-full rounded-2xl shadow bg-[#e1e1e1]"
                         v-for="item in items"
                         :key="item.id"
                     >
