@@ -1,34 +1,8 @@
-<script setup>
-// import { ref, onMounted } from 'vue'
-// const activeSection = ref('Home')
-
-// onMounted(() => {
-//     const sections = document.querySelectorAll('section') // each section should have id="Home", id="Products", etc.
-
-//     const observer = new IntersectionObserver(
-//         (entries) => {
-//             entries.forEach((entry) => {
-//                 if (entry.isIntersecting) {
-//                     activeSection.value = entry.target.id
-//                 }
-//             })
-//         },
-//         { threshold: 0.6 }, // 60% of section visible
-//     )
-
-//     sections.forEach((section) => observer.observe(section))
-// })
-</script>
-
 <template>
     <div
         class="w-full fixed top-0 min-h-10 shadow font-semibold flex items-center md:justify-evenly justify-between px-5 py-3 md:gap-6 z-55 secondary-bg"
     >
-        <img
-            src="../assets/Images/header.jpg"
-            alt="Celine's Treats"
-            class="h-10 w-10 rounded-full"
-        />
+        <img src="/Images/header.jpg" alt="Celine's Treats" class="h-10 w-10 rounded-full" />
         <nav class="flex md:gap-6">
             <li class="px-4 py-2 hover:rounded-2xl hover hover:bg-[#D3D3D3] hover:text-[#333333]">
                 <a href="#Home">Home</a>

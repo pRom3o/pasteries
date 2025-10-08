@@ -54,15 +54,19 @@ onMounted(() => {
 
 <template>
     <section id="Contact" class="fade-in min-h-[300px] w-full col-center px-5 py-8 bg-neutral-200">
-        <h1 class="md:text-5xl text-3xl mb-10 font-semibold text-neutral-700">
-            Want to place an order?
-        </h1>
+        <div class="w-full mb-10 text-center">
+            <h1 class="md:text-5xl text-3xl font-semibold text-neutral-700">
+                Want to place an order?
+            </h1>
+            <span>or</span>
+            <p>lodge a complaint?</p>
+        </div>
 
         <div
             class="h-full w-full md:w-[80%] xl:w-[80%] lg:w-full flex items-center justify-center gap-3 px-3 bg-[#f2f2f2] rounded-2xl shadow-sm"
         >
             <div class="h-[470px] w-1/2 lg:flex hidden rounded-2xl">
-                <img src="../assets/Images/contact.jpg" alt="" class="rounded-2xl w-full" />
+                <img src="/Images/contact.jpg" alt="" class="rounded-2xl w-full" />
             </div>
             <div class="vertical-line lg:block hidden"></div>
 

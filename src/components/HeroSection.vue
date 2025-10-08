@@ -23,7 +23,7 @@ onMounted(() => {
     <section
         id="Home"
         class="min-h-screen w-full center relative bg-center bg-cover text-primary mt-16"
-        style="background-image: url('src/assets/Images/pasteries-hero.jpg')"
+        style="background-image: url('/Images/pasteries-hero.jpg')"
     >
         <div class="absolute inset-0 bg-black/90 opacity-40 w-full"></div>
         <div class="h-full w-full text-center col-center z-10 leading-10">
